@@ -18,6 +18,10 @@ class Shelter:
         """Return descriptions for every pet in the shelter."""
         return [pet.describe() for pet in self.pets]
 
+    def pet_count(self) -> int:
+        """Return the number of pets in the shelter."""
+        return len(self.pets)
+
     def find_pet(self, name: str) -> Pet | None:
         """Find a pet by name, ignoring capitalization."""
         for pet in self.pets:
