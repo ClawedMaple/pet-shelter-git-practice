@@ -5,7 +5,7 @@ from pet import Pet
 
 class Shelter:
     """Manage the pets currently living at one shelter."""
-
+# Buzz off! This is my hiding spot in the code so that I can get staged!
     def __init__(self, name: str) -> None:
         self.name = name
         self.pets: list[Pet] = []
@@ -36,3 +36,4 @@ class Shelter:
             return None
         self.pets.remove(selected_pet)
         return selected_pet
+        
