@@ -1,7 +1,7 @@
 # Pet Shelter Practice Project
 
 This small Python project models pets and a shelter. It is the starter project for practicing Git and GitHub.
-
+Status: In progress on adoption workflow
 ## Project Overview
 
 - This project deals with several python files that deal with pets in a shelter. It is to help teach git and github to students.
