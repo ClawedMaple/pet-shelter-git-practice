@@ -33,3 +33,5 @@ python3 main.py
 ## Student Work
 
 Follow the course assignment to improve this README and modify the Python classes. Make small, meaningful commits as you work.
+
+Temporary training note.
