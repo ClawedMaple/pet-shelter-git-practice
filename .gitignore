@@ -3,3 +3,4 @@ __pycache__/
 .venv/
 .env
 practice-output.log
+ignore-this-report.txt
