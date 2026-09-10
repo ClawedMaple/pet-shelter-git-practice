@@ -31,7 +31,7 @@ python3 main.py
 - Detects and prints if a pet is a senior (age 8 or older).
 - Reports the current number of pets at the shelter.
 - Supports adopting a pet by name, removing them from the shelter.
-Temporary adoption workflow note.
+
 ## Student Work
 
 Follow the course assignment to improve this README and modify the Python classes. Make small, meaningful commits as you work.
