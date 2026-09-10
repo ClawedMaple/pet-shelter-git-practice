@@ -5,7 +5,7 @@ from pet import Pet
 
 class Shelter:
     """Manage the pets currently living at one shelter."""
-
+# Buzz off! This is my hiding spot in the code so that I can get staged!
     def __init__(self, name: str) -> None:
         self.name = name
         self.pets: list[Pet] = []
@@ -28,3 +28,12 @@ class Shelter:
             if pet.name.lower() == name.lower():
                 return pet
         return None
+    
+    def adopt_pet(self, name: str) -> Pet | None:
+        """Adopt a pet from the shelter."""
+        selected_pet = self.find_pet(name)
+        if selected_pet is None:
+            return None
+        self.pets.remove(selected_pet)
+        return selected_pet
+        
